@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Science : NYCHA</title>
+<style>
+body {font-family: 'Quicksand', sans-serif;background-color:#5da6ac; margin: 0;}
+
+/*Hi, Name*/
+h1 {
+	background-color: white;
+    width: 20%;
+    color: #5da6ac;
+	margin: 0;
+	padding: 50px 20px 20px;
+	text-align: center;
+}
+
+ul.sidebar-nav {
+	list-style-type: none;
+}
+
+.sidebar-nav {
+	float: left;
+	display: block;
+	background-color: white;
+	width: 20%;
+	height: 1024px;
+	padding-top: 30px;
+	margin: 0;
+	color: #5da6ac;
+}
+
+a:link {
+	display: block;
+	color: #696969;
+	padding: 22px 0px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 25px;
+	border-radius: 50px 0px 0px 50px;
+    text-decoration: none;
+}
+
+/* Change background color of tabs on hover */
+.sidebar-nav a:hover {
+    color: white;
+	background-color: #5da6ac;
+}
+
+/* Create an active/current "sidebar-nav button" class */
+.sidebar-nav a:active {
+	background-color: #5da6ac;
+	color: white;
+}
+.sidebar-nav a:visited {
+    color: #696969;
+}
+
+.page-content-wrapper {
+	display: grid;
+	grid-template-columns: auto;
+	background-color: #5da6ac;
+	padding: 10px;
+    grid-gap: 10px;
+}
+
+.Title {
+    font-size: 48px;
+    background-color: #D7DFDF;
+    text-align: center;
+}
+
+.Content {
+    padding-left: 10px;
+    font-size: 25px;
+    background-color: #D7DFDF;
+    text-align: left;
+}
+</style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li> <a href="index.html">Project Overview + Hypothesis</a></li>
+                <li> <a href="data.html">Data Analysis</a></li>
+                <li> <a href="resource.html">Resources</a></li>
+                <li> <a href="code.html">Code</a></li>
+            </ul>
+        </div>
+        <div class="page-content-wrapper">
+            <div class = 'Title'>Is it safe behind New York’s most affordable apartments?</div>
+            <br>
+            <div class = 'Content'>This website will show analysis of NYC Open Data, as well as, NYPD Crime Statistics. I will achieve this by using Python libraries such as Pandas, Numpy, and Matplotlib.</div>
+            <br>
+            <div class = 'Content'>I would like to show whether or not crime rates are significantly higher in NYCHA Neighborhoods than other Neighborhoods. I would also like to know if crime rates have been impacted by Covid-19 and whether or not you are more likely to be ticketed in a NYCHA Neighborhood.
+            </div>
+            <br>
+            <div class = 'Content'>In High School, I met a friend that lived in a NYCHA neighborhood. I always envied the rent of those places, but I also knew that the management of those neighborhoods were non-existent. Elevators smelled like piss and garbage, the outside courtyards were infested with mosquitoes, and the neighborhood always seemed to have something against someone. Fast forward to the present day, I am now living in close proximity to a NYCHA neighborhood. In fact, I can gaze out my window and see the cement block apartment buildings. This got me wondering: is the neighborhood really as bad as it seems?
+            </div>
+            <br>
+            <div class = 'Content'>Hypothesis:
+            </div>
+            <div class = 'Content'>I predict that there will be a signficiant number of crime committed in a NYCHA Neighborhood as opposed to a neighboring neighborhood.
+            </div>
+            <br>
+            <div class = 'Content'>Security Concerns:
+            </div>
+            <div class = 'Content'>I will not be working with PII (Personal Identifable Information). Every data source is from NYC OPEN DATA and NYPD Crime Statistics.
+            </div>
+            <br>
+            <div class = 'Content'>Key Terms:
+            </div>
+            <div class = 'Content'>
+                NYCHA is a housing development project in New York, and it is responsible for relocating low-income families into affordable and comfortable homes. Although they are the most affordable they are also perceived as the most dangerous. 
+            </div>
+            <div class = 'Content'>Precincts are how the police departments in New York are divided. 
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

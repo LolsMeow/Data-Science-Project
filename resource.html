@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Science : NYCHA</title>
+<style>
+body {font-family: 'Quicksand', sans-serif;background-color:#5da6ac; margin: 0;}
+
+/*Hi, Name*/
+h1 {
+	background-color: white;
+    width: 20%;
+    color: #5da6ac;
+	margin: 0;
+	padding: 50px 20px 20px;
+	text-align: center;
+}
+
+ul.sidebar-nav {
+	list-style-type: none;
+}
+
+.sidebar-nav {
+	float: left;
+	display: block;
+	background-color: white;
+	width: 20%;
+	height: 1024px;
+	padding-top: 30px;
+	margin: 0;
+	color: #5da6ac;
+}
+
+a:link {
+	display: block;
+	color: #696969;
+	padding: 22px 0px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 25px;
+	border-radius: 50px 0px 0px 50px;
+    text-decoration: none;
+}
+
+/* Change background color of tabs on hover */
+.sidebar-nav a:hover {
+    color: white;
+	background-color: #5da6ac;
+}
+
+/* Create an active/current "sidebar-nav button" class */
+.sidebar-nav a:active {
+	background-color: #5da6ac;
+	color: white;
+}
+.sidebar-nav a:visited {
+    color: #696969;
+}
+
+.page-content-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #5da6ac;
+	padding: 10px;
+    grid-gap: 10px;
+}
+
+.Title {
+    padding: 10px;
+    font-size: 48px;
+    background-color: #D7DFDF;
+    text-align: center;
+}
+
+.Content {
+    padding-left: 10px;
+    font-size: 25px;
+    background-color: #D7DFDF;
+    text-align: left;
+}
+</style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li> <a href="index.html">Project Overview + Hypothesis</a></li>
+                <li> <a href="data.html">Data Analysis</a></li>
+                <li> <a href="resource.html">Resources</a></li>
+                <li> <a href="code.html">Code</a></li>
+            </ul>
+        </div>
+        <div class = 'Title'>Resources</div>
+        <div class="page-content-wrapper">
+            <div class = 'Content'>
+                <a href = "https://data.cityofnewyork.us/City-Government/Open-Parking-and-Camera-Violations/nc67-uf89">Open Parking and Camera Violations</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-001pct.xlsx">1st Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-005pct.xlsx">5th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-006pct.xlsx">6th Precinct</a>
+            </div>    
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-007pct.xlsx">7th Precinct</a>
+            </div>    
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-009pct.xlsx">9th Precinct</a>
+            </div>    
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-010pct.xlsx">10th Precinct</a>
+            </div>    
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-013pct.xlsx">13th Precinct</a>
+            </div>    
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-017pct.xlsx">17th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-018pct.xlsx">18th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-019pct.xlsx">19th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-023pct.xlsx">23rd Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-060pct.xlsx">60th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-061pct.xlsx">61st Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-062pct.xlsx">62nd Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-063pct.xlsx">63rd Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-066pct.xlsx">66th Precinct</a>
+            </div>     
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-067pct.xlsx">67th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-069pct.xlsx">69th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-070pct.xlsx">70th Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-071pct.xlsx">71st Precinct</a>
+            </div>
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-073pct.xlsx">73rd Precinct</a>
+            </div>   
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-077pct.xlsx">77th Precinct</a>
+            </div>   
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-078pct.xlsx">78th Precinct</a>
+            </div>   
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-079pct.xlsx">79th Precinct</a>
+            </div>     
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-083pct.xlsx">83rd Precinct</a>
+            </div> 
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-084pct.xlsx">84th Precinct</a>
+            </div> 
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-088pct.xlsx">88th Precinct</a>
+            </div> 
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-090pct.xlsx">90th Precinct</a>
+            </div> 
+            <div class = 'Content'>
+                <a href = "https://www1.nyc.gov/assets/nypd/downloads/excel/crime_statistics/cs-en-us-094pct.xlsx">94th Precinct</a>
+            </div> 
+        </div>
+    </div>
+
+</body>
+
+</html>
